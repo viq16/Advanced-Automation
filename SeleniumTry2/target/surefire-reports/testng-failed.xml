@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)" preserve-order="false">
+    <classes>
+      <class name="tests.FirstTest">
+        <methods>
+          <include name="CleanUpBrowser"/>
+          <include name="TestGoogleSearchEngine"/>
+          <include name="PrepareBrowser"/>
+          <include name="InitializeHomePage"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

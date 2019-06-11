@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="MEDION-Komputer" name="tests.FirstTest" tests="1" failures="1" timestamp="11 Jun 2019 18:16:02 GMT" time="10.21" errors="0">
+  <testcase name="TestGoogleSearchEngine" time="8.1" classname="tests.FirstTest">
+    <failure type="java.lang.AssertionError" message="DOWNLOADING WAS NOT COMPLETED CORRECTLY">
+      <![CDATA[java.lang.AssertionError: DOWNLOADING WAS NOT COMPLETED CORRECTLY
+	at pages.BasePage.determineIfFileIsDownloaded(BasePage.java:130)
+	at tests.FirstTest.TestGoogleSearchEngine(FirstTest.java:39)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>
